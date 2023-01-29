@@ -1,9 +1,14 @@
 package week19_14_01_2023.selenium_drivers;
 
-public class RemoteWebDriver implements WebDriver, TakeScreenShot, JavaScriptExecuter {
+public class RemoteWebDriver implements WebDriver, TakeScreenShot, JavaScriptExecutor {
     @Override
     public void executeScript(String script) {
         System.out.println("I will execute that " + script);
+    }
+
+    @Override
+    public void method2() {
+
     }
 
     @Override

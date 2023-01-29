@@ -13,7 +13,7 @@ public class TestDrivers {
 
         ((TakeScreenShot)driver).getScreenshots();
 
-        ((JavaScriptExecuter)driver).executeScript("Script");
+        ((JavaScriptExecutor)driver).executeScript("Script");
 
 
 
